@@ -27,3 +27,13 @@ button {
     }
   }
 }
+
+@media (width <= 30em) {
+  button {
+    text-align: center;
+
+    &.btn-secondary {
+      margin: 0;
+    }
+  }
+}

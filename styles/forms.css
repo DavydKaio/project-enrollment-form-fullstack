@@ -25,3 +25,15 @@ fieldset + fieldset {
   display: flex;
   gap: 1.5rem;
 }
+
+@media (width <= 30em) {
+  fieldset {
+    & > .flex {
+      flex-direction: column;
+    }
+  }
+
+  .actions-wrapper {
+    flex-direction: column;
+  }
+}
